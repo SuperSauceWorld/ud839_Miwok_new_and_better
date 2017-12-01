@@ -49,7 +49,7 @@ public class NumbersActivity extends AppCompatActivity {
     LinearLayout rootview = (LinearLayout) findViewById(R.id.rootView);
 
 
-    //Create a variable to keep track of the current index position
+    //Create a variable to keep track of the current index position.
     int index = 0;
     while(index<words.size()) {
         //Create a new {@link TextView} that displayed the word at
